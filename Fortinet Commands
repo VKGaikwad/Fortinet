@@ -1,1 +1,35 @@
 get system status
+get system session list
+
+
+diagnose debug crashlog read
+diagnose sys top 
+diagnose sys top | grep <process>
+diagnose sys kill 11 <process id>
+
+EthSniffer (capture packet bi-directionaly>
+=============================================
+ diagnose sniffer packet any "port <port_number> and host <host_ip>" <verbose_level>
+ diagnose sniffer packet any "port 80 and host 10.1.10.1" 4
+ diagnose sniffer packet any "icmp and host 10.1.10.1" 4
+
+session check
+===============
+ diagnose sys session filter clear
+ diagnose sys session filter src <source_IP>
+ diagnose sys session filter dport <destination_port>
+ diagnose sys session list
+
+Debug flow
+============
+ diagnose debug flow filter clear
+ diagnose debug flow filter dport <destination_port>
+ diagnose debug flow filter addr <ip_address>
+ diagnose debug flow trace start <count>
+ diagnose debug enable
+
+
+
+
+
+
