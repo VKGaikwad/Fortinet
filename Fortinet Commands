@@ -29,8 +29,8 @@ Debug flow
  diagnose debug enable
 
 
-diagnose fortilogd lograte:         log rate every second/30 seconds/60 seconds
-diagnose fortilogd msgrate:         Message lograte every second/30 seconds/60 sec
+diagnose fortilogd lograte:         log rate per 5 Second , 30 second & 60 seconds
+diagnose fortilogd msgrate:         Message lograte per 5 Second , 30 second & 60 seconds
 diagnose fortilogd lograte-device:  log messagerate per device per second
 diagnose fortilogd lograte-type:    log type distribution per second
 
