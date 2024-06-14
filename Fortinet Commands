@@ -1,6 +1,10 @@
 get system status
 get system session list
 
+show system global
+
+
+
 
 diagnose debug crashlog read
 diagnose sys top 
